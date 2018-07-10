@@ -1,9 +1,9 @@
 # linkeyejs-tx 
 
-# INSTALL
+# install
 `npm install linkeyejs-tx`
 
-# USAGE
+# usage
 
 ```javascript
 const EthereumTx = require('ethereumjs-tx')
