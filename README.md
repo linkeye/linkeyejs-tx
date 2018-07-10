@@ -6,7 +6,7 @@
 # usage
 
 ```javascript
-const EthereumTx = require('ethereumjs-tx')
+const EthereumTx = require('linkeyejs-tx')
 const privateKey = Buffer.from('e331b6d69882b4cb4ea581d88e0b604039a3de5967688d3dcffdd2270c0fd109', 'hex')
 
 const txParams = {
@@ -15,8 +15,8 @@ const txParams = {
   gasLimit: '0x2710',
   to: '0x0000000000000000000000000000000000000000', 
   value: '0x00', 
+  subId:'0x00000000000000000000000000000000',
   data: '0x7f7465737432000000000000000000000000000000000000000000000000000000600057',
-  // EIP 155 chainId - mainnet: 1, ropsten: 3
   chainId: 3
 }
 
