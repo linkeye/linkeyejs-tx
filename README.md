@@ -6,7 +6,7 @@
 # usage
 
 ```javascript
-const EthereumTx = require('linkeyejs-tx')
+const LinkeyeTx = require('linkeyejs-tx')
 const privateKey = Buffer.from('e331b6d69882b4cb4ea581d88e0b604039a3de5967688d3dcffdd2270c0fd109', 'hex')
 
 const txParams = {
@@ -20,7 +20,7 @@ const txParams = {
   chainId: 3
 }
 
-const tx = new EthereumTx(txParams)
+const tx = new LinkeyeTx(txParams)
 tx.sign(privateKey)
 const serializedTx = tx.serialize()
 ```
